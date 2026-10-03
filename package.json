@@ -1,0 +1,16 @@
+{
+  "name": "mastra-mcp-app-pointer-stream-repro",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "repro": "node repro.mjs"
+  },
+  "dependencies": {
+    "@mastra/ai-sdk": "1.10.6",
+    "@mastra/core": "1.74.0",
+    "@mastra/mcp": "2.1.2",
+    "@modelcontextprotocol/sdk": "1.32.0",
+    "ai": "7.0.127",
+    "zod": "4.6.5"
+  }
+}
