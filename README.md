@@ -1,6 +1,6 @@
 # `toAISdkStream` never carries the MCP App pointer
 
-Upstream issue: https://github.com/mastra-ai/mastra/issues/NNNNN
+Upstream issue: https://github.com/mastra-ai/mastra/issues/25892
 
 Minimal reproduction for `@mastra/ai-sdk` with `@mastra/mcp`. No ports, keys or network calls. The fixture
 MCP server runs over **stdio**, spawned by the repro, and the model is `MastraLanguageModelV2Mock`.
